@@ -1,0 +1,46 @@
+# --- Segurança (CRÍTICO) ---
+.bash_history
+.zsh_history
+.history
+.ssh/
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+*.pem
+*.key
+.gnupg/
+
+# --- Segredos e APIs ---
+.env
+.env.local
+token.txt
+secrets.sh
+
+# --- Arquivos de Sistema e Lixo ---
+.DS_Store
+Thumbs.db
+lost+found
+*~
+*.swp
+*.swo
+*.log
+*.bak
+*.old
+*.tmp
+*.orig
+
+# --- Cache e Diretórios Pesados ---
+.cache/
+node_modules/
+__pycache__/
+venv/
+.npm/
+
+# --- Compilação (Caso use ferramentas em C) ---
+*.o
+*.so
+a.out
+
+# --- Específico do Stow ---
+.stow-local-ignore
