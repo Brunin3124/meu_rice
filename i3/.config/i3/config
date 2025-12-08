@@ -185,6 +185,19 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-        status_command i3status
+       # status_command i3status
 }
 exec_always --no-startup-id picom -b
+
+#minhas configs
+#window
+default_border pixel
+hide_edge_borders smart_no_gaps
+
+#class
+client.background #eb4034
+
+#gaps
+gaps inner 13px
+gaps outer 5px
+smart_gaps off 
